@@ -114,7 +114,7 @@ while True:
     print("Iniciando atualização de dados...")
     try:
         fetch_and_update_data()
-        print("Atualização concluída.")
+        print("Atualização concluída")
     except Exception as e:
         print(f"Erro: {e}")
     
